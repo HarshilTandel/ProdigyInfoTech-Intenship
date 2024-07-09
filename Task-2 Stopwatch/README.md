@@ -25,7 +25,7 @@ Include a screenshot or GIF of your stopwatch application here.
 
    ## Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://stopwatch-x.netlify.app/).
 
 ## Usage
 
