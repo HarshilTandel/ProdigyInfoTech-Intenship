@@ -11,7 +11,7 @@ This project implements a simple Tic-Tac-Toe game using HTML, CSS, and JavaScrip
 
 ## Live Demo
 
-Check out the live demo [here](https://your-live-demo-url.com).
+Check out the live demo [here](https://leacture-timepass.netlify.app/).
 
 ## Technologies Used
 
