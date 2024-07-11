@@ -61,8 +61,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- Email: (harshil.tndll@gmail.com)
-- GitHub: (https://github.com/HarshilTandel)
+- [Email](harshil.tndll@gmail.com)
+- [GitHub](https://github.com/HarshilTandel)
 
 Feel free to reach out if you have any questions or feedback about the project!
 
