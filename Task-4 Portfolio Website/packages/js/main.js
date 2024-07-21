@@ -209,3 +209,10 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const form = document.querySelector('.contact__form');
+  if (form) {
+      form.reset();
+  }
+});

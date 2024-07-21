@@ -380,6 +380,25 @@
             <div class="qualification__content" data-content id="work">
                 <!--==================== QUALIFICATION 1 ====================--> 
                 <div class="qualification__data">
+                    <div></div>
+                    <div>
+                       <span class="qualification__rounder"></span>
+                       <span class="qualification__line"></span>
+                    </div>
+    
+                    <div>
+                        <h3 class="qualification__title">Internship - Hybrid</h3>
+                        <span class="qualification__subtitle">Izonnet Web Soultion pvt.Ltd</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           July 2024 - August 2024
+                        </div>
+                    </div>
+                </div> 
+              
+                
+                <!--==================== QUALIFICATION 2 ====================--> 
+                <div class="qualification__data">
                     <div>
                         <h3 class="qualification__title">Internship - Remote</h3>
                         <span class="qualification__subtitle">Prodigy InfoTech </span>
@@ -394,25 +413,6 @@
                         <span class="qualification__line"></span>
                     </div>
                 </div>
-                
-                <!--==================== QUALIFICATION 2 ====================--> 
-                <div class="qualification__data">
-                   <div></div>
-                   <div>
-                      <span class="qualification__rounder"></span>
-                      <span class="qualification__line"></span>
-                   </div>
-   
-                   <div>
-                       <h3 class="qualification__title">Internship - Hybrid</h3>
-                       <span class="qualification__subtitle">Izonnet Web Soultion pvt.Ltd</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          July 2024 - August 2024
-                       </div>
-                   </div>
-               </div> 
-   
                <!--==================== QUALIFICATION 3 ====================--> 
             </div>
         </section>
@@ -521,7 +521,7 @@
                     <h3 class="portfolio__title">Admin Panel</h3>
                     <p class="portfolio__description">Create  dashboard adaptable to all devices, 
                         with MERN.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <a href="https://github.com/HarshilTandel/AdminPanel-Backend" class="button button--flex button--small portfolio__button">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -552,7 +552,7 @@
                 <div class="portfolio_">
                     <h3 class="portfolio__title">Personal Portfolio</h3>
                     <p class="portfolio__description">A personal portfolio showcasing adaptable responsive design, sleek UI components, engaging animations, and professional achievements.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <a href="https://harshil-tandel.netlify.app/" class="button button--flex button--small portfolio__button">
                         Demo
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -633,34 +633,35 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact__form grid">
+                    <input type="hidden" name="access_key" value="2e6e512a-2bb1-4d31-8ce7-8132581e005b">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" name="name" class="contact__input" id="name" required>
                         </div>
-
+                
                         <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" name="email" class="contact__input" id="email" required>
                         </div>
                     </div>
-
+                
                     <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" name="subject" class="contact__input" id="subject" required>
                     </div>
-
+                
                     <div class="contact__content">
-                        <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="description" class="contact__label">Description</label>
+                        <textarea name="description" id="description" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
-
+                
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit" class="button button--flex">
                             Send message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
