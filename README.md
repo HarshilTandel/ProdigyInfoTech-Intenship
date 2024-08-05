@@ -27,7 +27,7 @@ Welcome to my Prodigy Infotech internship repository! This repository showcases 
 ### Task-5: Weather App 🌤️
 
 - **Description:** Developed a weather application.
-- **Demo:** [Check Weather App](./Task-5_Weather_App/)
+- **Demo:** [Check Weather App](https://weatherflow-check.netlify.app/)
 
 ## Repository Navigation
 
